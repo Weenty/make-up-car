@@ -1,25 +1,28 @@
 <template>
-  <div>
-    <banner>  </banner>
-    <fotter>  </fotter>
-
-    </div>
+  <v-app>
+    <banner/>
+    <first/>
+    <props/>
+  </v-app>
 </template>
 
 <script>
+import first from'./components/first';
 import banner from './components/banner';
-import fotter from './components/fotter';
+import props from './components/props';
 export default {
   name: 'App',
 
   components: {
     banner,
-    fotter,
-    
+    first,
+    props,
   },
 
   data: () => ({
     //
   }),
 };
+
+
 </script>
