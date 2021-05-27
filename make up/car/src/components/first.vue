@@ -67,6 +67,10 @@ export default {
 </script>
 
 <style scoped>
+.right_top
+{
+  background: #F3F3F3;
+}
 .text_1 { 
 font-family: TT Commons;
 font-style: normal;

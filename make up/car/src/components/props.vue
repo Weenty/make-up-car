@@ -12,9 +12,8 @@
     ></v-img>
 
     <v-card-title>
-      Top western road trips
+      {{data[1].title}}
     </v-card-title>
-
     <v-card-subtitle>
       1,000 miles of wonder
     </v-card-subtitle>
@@ -64,15 +63,17 @@
     links: ["Home", "About Us", "Team", "Services", "Blog", "Contact Us"],
     data: [
       {
-        img: "https://via.placeholder.com/600/51aa97"
+        img: "https://via.placeholder.com/600/51aa97",
+        title: 'Подбор и замена масла'
       },
       {
-        img: "https://via.placeholder.com/600/24f354"
+        img: "https://via.placeholder.com/600/24f354",
+        title: 'Консультация по замене автозапчастей'
       },
       {
-        img: "https://via.placeholder.com/600/24f354"
+        img: "https://via.placeholder.com/600/24f354",
+        title: 'Осмотр автомобилей и рекомендации по ремонту'
       },
-     
     ]
   })
 };
