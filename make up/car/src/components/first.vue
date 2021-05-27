@@ -33,10 +33,12 @@
 
 <div class="right_block">
 <div class = "right_top">
-<strong class="text_1">Данные автомобиля</strong>
-<strong class="text_2">Заказы</strong>
+  <div class='right_block_text'>
+<strong class="text_1">Данные автомобиля</strong> <strong class="text_2">Запчасти</strong> 
+<hr> 
+<strong class="text_3">VIN</strong>
 </div>
-
+</div>
 </div>
 </div>
 </template>
@@ -50,7 +52,20 @@ export default {
 </script>
 
 <style scoped>
+.right_block_text {
+  margin: 0vw;
+  margin-top: 1vw;
+}
+.right_block{
+  
+font-family: TT Commons;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 34px;
 
+color: #686D79;
+}
 .search{
   display: normal;
   margin: 0vw;
