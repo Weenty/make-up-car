@@ -200,7 +200,7 @@ export default {
   font-family: TT;
   position: absolute;
   color: #686d79;
-  margin-left: 36vw;
+  margin-left: 33vw;
   size: 20px;
   font-weight: 622px;
   font-size: 17px;
@@ -213,12 +213,12 @@ export default {
   position: absolute;
   color: #686D79;
   size: 20px;
-  font-weight: 622px;
+  font-weight: 600;
   font-size: 22px;
   height: 178px;
   word-spacing: 1;
   top: 465px;
-  left: 950px;
+  left: 1000px;
 }
 
 .mail {
@@ -226,12 +226,12 @@ export default {
   position: absolute;
   color: #686D79;
   size: 20px;
-  font-weight: 622px;
+  font-weight: 600;
   font-size: 22px;
   height: 178px;
   word-spacing: 1;
   top: 510px;
-  left: 950px;
+  left: 1000px;
 }
 
 .logo {
