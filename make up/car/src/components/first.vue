@@ -10,27 +10,23 @@
 <div class="enter_name">
          Введите имя
 </div>
-<div class="petr">
-  Петров Петр Петрович
-</div>
+
+
+<input class='petr' placeholder="Петр петрович">
+
+
 <div class="enter_email">
         Введите электронную почту
 
 </div>
 
-<div style="padding-top:10px" class="petr">
-          blabla@gmai.com
- 
-   </div>
+<input class='petr' placeholder="balblalba@mail.ru">
    <div class="enter_email">
         Введите телефон
 
 </div>
 
-<div style="padding-top:10px" class="petr">
-          88005553535
- 
-   </div>
+<input class='petr' placeholder="88005553535">
 
 </div>
 
@@ -91,6 +87,7 @@ color: #686D79;
 
 }
 .petr{
+  margin: -1.3em 0 0 0.2em;
      display: normal;
   margin: 0vw;
   margin-top: 1vw;
@@ -101,7 +98,6 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 23px;
-color: #D8D8D8;
 border: 1px solid #979797;
 box-sizing: border-box;
 
