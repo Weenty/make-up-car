@@ -36,7 +36,10 @@
   <div class='right_block_text'>
 <strong class="text_1">Данные автомобиля</strong> <strong class="text_2">Запчасти</strong> 
 <hr> 
+<div>
 <strong class="text_3">VIN</strong>
+<input class='petr' placeholder="XXX-XXX-XXX">
+</div>
 </div>
 </div>
 </div>
@@ -52,9 +55,13 @@ export default {
 </script>
 
 <style scoped>
+.text_2 {
+  margin-left: 4vw;
+}
 .right_block_text {
   margin: 0vw;
-  margin-top: 1vw;
+  margin-top: 10vw;
+  width: 34vw;
 }
 .right_block{
   
@@ -101,6 +108,10 @@ line-height: 34px;
 color: #686D79;
 
 }
+input.petr::placeholder {
+  color: #D8D8D8;
+}
+
 .petr{
   margin: -1.3em 0 0 0.2em;
      display: normal;
