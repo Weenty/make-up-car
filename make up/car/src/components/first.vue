@@ -34,11 +34,23 @@
 <div class="right_block">
 <div class = "right_top">
   <div class='right_block_text'>
-<strong class="text_1">Данные автомобиля</strong> <strong class="text_2">Запчасти</strong> 
-<hr> 
+<strong class="text_1">Данные автомобиля</strong> <strong class="text_2">Запчасти</strong>
 <div>
-<strong class="text_3">VIN</strong>
-<input class='petr' placeholder="XXX-XXX-XXX">
+<div class='padding1'/><strong class="text_3">VIN</strong> <div class='padding1'/>
+<div class='input1'>
+<input class='petr1' placeholder="XXX-XXX-XXX"> <div class='padding'/>
+<hr>
+</div>
+<div class='padding1'/><strong class="text_3">Марка и модель</strong> <div class='padding1'/>
+<div class='input1'>
+<input class='petr1' placeholder="Lada X-RAY"> <div class='padding'/>
+<hr>
+</div>
+<div class='padding1'/><strong class="text_3">Год выпуска</strong> <div class='padding1'/>
+<div class='input1'>
+<input class='petr1' placeholder="2000"> <div class='padding'/>
+<hr>
+</div>
 </div>
 </div>
 </div>
@@ -55,16 +67,7 @@ export default {
 </script>
 
 <style scoped>
-.text_2 {
-  margin-left: 4vw;
-}
-.right_block_text {
-  margin: 0vw;
-  margin-top: 10vw;
-  width: 34vw;
-}
-.right_block{
-  
+.text_1 { 
 font-family: TT Commons;
 font-style: normal;
 font-weight: normal;
@@ -72,6 +75,38 @@ font-size: 30px;
 line-height: 34px;
 
 color: #686D79;
+}
+.padding1 {
+  padding-top: 3vw;
+}
+.padding {
+  padding-top: 1.5vw;
+}
+.input1 {
+  max-width: 500px;
+}
+.text_3 {
+  margin-top: 4vw;
+  font-family: TT Commons;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 34px;
+color: #686D79;
+}
+.text_2 {
+  margin-left: 4vw;
+  font-family: TT Commons;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 34px;
+color: #686D79;
+}
+.right_block_text {
+  margin: 0vw;
+  margin-top: 10vw;
+  width: 34vw;
 }
 .search{
   display: normal;
@@ -106,9 +141,15 @@ font-weight: normal;
 font-size: 30px;
 line-height: 34px;
 color: #686D79;
-
+}
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
 }
 input.petr::placeholder {
+  color: #D8D8D8;
+}
+input.petr1::placeholder {
   color: #D8D8D8;
 }
 
@@ -126,7 +167,20 @@ font-size: 20px;
 line-height: 23px;
 border: 1px solid #979797;
 box-sizing: border-box;
-
+}
+.petr1{
+  margin: -1.3em 0 0 0.2em;
+     display: normal;
+  margin: 0vw;
+  margin-top: 1vw;
+  margin-left: 0vw;
+  margin-right: 0vw;
+    font-family: TT Commons;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+box-sizing: border-box;
 }
 .enter_email{
       display: normal;
@@ -156,6 +210,6 @@ width: 50%;
 height: 1000px;
 display: block;
 width: 50%;
-
+background: #F3F3F3;
 }
 </style>
