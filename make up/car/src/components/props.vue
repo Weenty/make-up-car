@@ -1,18 +1,19 @@
 <template>
 <conatiner>
+  <div class='fucking_block'>
   <v-row no-gutters>
-     <v-col v-for="n in data" :key="n" cols="12" sm="4">
+     <v-col v-for="data in data" :key="data" cols="2" sm="4">
 <v-card
     class="mx-auto"
     max-width="344"
   >
     <v-img
-      src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+      src="../assets/2.jpg" 
       height="200px"
     ></v-img>
 
     <v-card-title>
-      {{data[1].title}}
+      {{data.title}}
     </v-card-title>
     <v-card-subtitle>
       1,000 miles of wonder
@@ -50,6 +51,7 @@
 
      </v-col>
   </v-row>
+  </div>
 </conatiner>     
 </template>
       
@@ -58,9 +60,6 @@
  export default {
   name: "HelloWorld",
   data: () => ({
-    model: 0,
-    colors: ["primary", "secondary", "yellow darken-2", "red", "orange"],
-    links: ["Home", "About Us", "Team", "Services", "Blog", "Contact Us"],
     data: [
       {
         img: "https://via.placeholder.com/600/51aa97",
@@ -79,5 +78,10 @@
 };
 </script>
 
-
+<style scoped> 
+.fucking_block {
+  position: normal;
+  display: normal;
+}
+</style>
     
