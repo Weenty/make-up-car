@@ -2,7 +2,10 @@
   <v-app>
     <banner/>
     <first/>
+<div class='div-extra-app1'/>
     <props/>
+    <div class='div-extra-app1'/>
+    <news/>
     <fotter/>
   </v-app>
 </template>
@@ -11,6 +14,7 @@
 import first from'./components/first';
 import banner from './components/banner';
 import props from './components/props';
+import news from './components/news';
 import fotter from './components/fotter'
 export default {
   name: 'App',
@@ -20,6 +24,7 @@ export default {
     first,
     props,
     fotter,
+    news,
   },
 
   data: () => ({
@@ -29,3 +34,9 @@ export default {
 
 
 </script>
+<style scoped>
+.div-extra-app1
+{
+padding-top:10vw ;
+}
+</style>

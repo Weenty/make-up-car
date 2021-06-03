@@ -30,7 +30,7 @@
               width="20"
               height="20"
               style="
-                margin-left: 65vw;
+                margin-left: 65%;
                 margin-top: 30px;
                 position: absolute;
                 display: flex;
@@ -56,7 +56,7 @@
               width="17"
               height="20"
               style="
-                margin-left: 75vw;
+                margin-left: 75%;
                 margin-top: 30px;
                 position: absolute;
                 display: flex;
@@ -106,7 +106,7 @@
               width="20"
               height="20"
               style="
-                margin-left: 79vw;
+                margin-left: 80%;
                 margin-top: 30px;
                 position: absolute;
                 display: flex;

@@ -8,8 +8,8 @@
     max-width="344"
   >
     <v-img
-      src="../assets/2.jpg" 
-      height="200px"
+      src="../assets/1.jpg"
+      height="450px"
     ></v-img>
 
     <v-card-title>
@@ -62,15 +62,15 @@
   data: () => ({
     data: [
       {
-        img: "https://via.placeholder.com/600/51aa97",
+        img: "../assets/1.jpg",
         title: 'Подбор и замена масла'
       },
       {
-        img: "https://via.placeholder.com/600/24f354",
+        img: "../assets/2.jpg",
         title: 'Консультация по замене автозапчастей'
       },
       {
-        img: "https://via.placeholder.com/600/24f354",
+        img: "../assets/3.jpg",
         title: 'Осмотр автомобилей и рекомендации по ремонту'
       },
     ]
@@ -78,10 +78,4 @@
 };
 </script>
 
-<style scoped> 
-.fucking_block {
-  position: normal;
-  display: normal;
-}
-</style>
     
