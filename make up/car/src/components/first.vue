@@ -139,10 +139,10 @@ line-height: 34px;
 color: #686D79;
 }
 .padding1 {
-  padding-top: 3vw;
+  padding-top: 2vw;
 }
 .padding {
-  padding-top: 1.5vw;
+  padding-top: 1vw;
 }
 .input1 {
   max-width: 500px;

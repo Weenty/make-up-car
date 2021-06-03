@@ -6,6 +6,8 @@
 <v-card
     class="mx-auto"
     max-width="344"
+    display="block"
+    position="fixed"
   >
     <v-img
       src="../assets/1.jpg"
@@ -78,4 +80,7 @@
 };
 </script>
 
+<style scoped>
+
+</style>
     
