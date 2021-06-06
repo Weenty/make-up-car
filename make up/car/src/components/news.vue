@@ -70,6 +70,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 40px;
 line-height: 46px;
+margin-left: 7%;
 /* identical to box height */
 
 color: #686D79;
