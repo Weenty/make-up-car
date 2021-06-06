@@ -1,6 +1,10 @@
 <template>
 <div>
+  <div class="int">
+Интересно
+  </div>
   <div class="news">
+  
   Новости
   </div>
   <div class="container">
@@ -70,10 +74,24 @@ font-style: normal;
 font-weight: 600;
 font-size: 40px;
 line-height: 46px;
-margin-left: 7%;
+margin-left: 11.5vw;
+margin-bottom: 5vw;
 /* identical to box height */
 
 color: #686D79;
+}
+.int{
+  font-family: TT Commons;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+
+color: #D8D8D8;
+margin-left: 11.5vw;
+margin-bottom: 1vw;
 }
 .text2 {
   margin-left: 1vw;
