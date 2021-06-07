@@ -158,6 +158,7 @@
           <div class="text_banner4">
             Подберем и подарим 4 литра масла, при покупке полного комплекта
             зимней резины
+
           </div>
         </div>
         <div class="svg">
@@ -262,6 +263,7 @@
           </div>
         </div>
       </div>
+      <div class='rr2'> <div class='rrr'/> <div class='rr1'> </div> </div> 
     </v-img>
   </div>
 </template>
@@ -339,4 +341,21 @@ export default {
 .col {
   width: 100%;
 }
+.rrr {
+  width: 160px;
+height: 6px;
+background: #FFFFFF;
+border-radius: 1px;
+}
+.rr1 {
+  width: 480px;
+height: 1px;
+background: #FFFFFF;
+border-radius: 1px;
+}
+.rr2 {
+  margin-bottom: 6vw;
+  margin-left: 30%;
+}
+
 </style>

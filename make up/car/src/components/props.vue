@@ -74,7 +74,7 @@
   color: #be0d0d;
 }
 .bt {
-  text-indent: 10px;
+  text-indent: 1px;
   text-align: center;
   width: 200px;
   height: 70px;

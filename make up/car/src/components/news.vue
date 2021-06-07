@@ -3,10 +3,18 @@
   <div class="int">
 Интересно
   </div>
-  <div class="news">
-  
+  <div class="topbl">
+    <div class="news">
   Новости
   </div>
+  <div class="allnews">
+<button class="bt">
+        Все новости  
+        
+      </button>
+  </div>
+  </div>
+  
   <div class="container">
     <div class="left_block">
       <div class="img1">
@@ -79,6 +87,9 @@ margin-bottom: 5vw;
 /* identical to box height */
 
 color: #686D79;
+}
+.topbl{
+  display: flex;
 }
 .int{
   font-family: TT Commons;
@@ -165,4 +176,18 @@ margin-bottom: 1vw;
   display: block;
   width: 50%;
 }
+.bt {
+  margin-top: 1vw;
+  margin-left: 61.5vw;
+  text-indent: 1px;
+  text-align: center;
+  width: 165px;
+  height: 40px;
+  background-color: #410077;
+  font-family: TT Commons;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;}
 </style>
