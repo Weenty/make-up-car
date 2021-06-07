@@ -1,105 +1,62 @@
 <template>
-  <div>
-    <div class="news">Новости</div>
-    <button class="button">
-      <svg
-        width="165"
-        height="40"
-        viewBox="0 0 165 40"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="165" height="40" fill="#712BE1" fill-opacity="0.5" />
-      </svg>
-    </button>
-    <button class="all_news">Все новости</button>
-    <div>
-      <button>
-        <svg
-          class="news2"
-          width="232"
-          height="232"
-          viewBox="0 0 232 232"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect
-            width="232"
-            height="232"
-            rx="1"
-            fill="black"
-            fill-opacity="0.5"
-          />
-        </svg>
-        <div class="news2_data">14.03.2020</div>
-        <div class="news2_text1">
-          Аварийная ситуация!
-          <br />
-          Ночное ДТП в центре
-          <br />
-          Нижнего тагила
-        </div>
-        <div class="news2_text2">
-          Разбираемся в инциденте вместе
-          <br />
-          с инспектором ГИБДД
-          <br />
-          А. А. Грибниковым
-        </div>
-      </button>
-    </div>
-    <div>
-      <button>
-        <svg
-          class="news3"
-          width="232"
-          height="232"
-          viewBox="0 0 232 232"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect
-            width="232"
-            height="232"
-            rx="1"
-            fill="black"
-            fill-opacity="0.5"
-          />
-        </svg>
-        <div class="news3_data">01.05.2020</div>
-        <div class="news3_text">
-          Автовладельцы
-          <br />
-          выступают против
-          <br />
-          COVID-19
-        </div>
-      </button>
-    </div>
-    <button>
-      <svg
-        class="news1"
-        width="660"
-        height="502"
-        viewBox="0 0 660 502"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="660" height="502" fill="black" fill-opacity="0.496943" />
-      </svg>
-      <div class="news1_text1">
-        Номинант на оскар -
-        <br />
-        фильм "Форд против Ферарр"
-      </div>
-      <div class="news1_data">03.04.2020</div>
-      <div class="news1_text2">
-        Интересные подробности
-        <br />
-        со съемок
-      </div>
-    </button>
+<div>
+  <div class="int">
+Интересно
   </div>
+  <div class="news">
+  
+  Новости
+  </div>
+  <div class="container">
+    <div class="left_block">
+      <div class="img1">
+        <v-img
+        width="660px"
+        height="500px"
+          gradient="to top right, rgba(0, 0, 0, 0.496943),rgba(0, 0, 0, 0.496943)"
+          src="../assets/news1.jpg"
+        >
+          <div class="text3">03.04.2020</div>
+          <div class="text4">
+            Номинант на оскар – фильм «Форд против Ферарри»
+          </div>
+          <div class="text5">Интересные подробности со съемок</div></v-img
+        >
+      </div>
+    </div>
+
+    <div class="right_block">
+      <div class="img2">
+        <div class="lr">
+          <v-img
+            height="230px"
+            width="230px"
+            gradient="to top right, rgba(0, 0, 0, 0.496943),rgba(0, 0, 0, 0.496943)"
+            src="../assets/news2.jpg"
+          >
+          </v-img>
+          <v-img
+                    class="lr3"
+            height="230px"
+            width="230px"
+            gradient="to top right, rgba(0, 0, 0, 0.496943),rgba(0, 0, 0, 0.496943)"
+            src="../assets/news3.jpg"
+          ></v-img>
+        </div>
+        <div class="lr1">
+          <div class="text2">
+            <b>Аварийная ситуация! Ночное ДТП в центре Нижнего Тагила </b> <br> <br>
+            Разбираемся в инциденте вместе с инспектором ГИБДД А. А. Грибниковым
+          </div>
+                    <div class="text12">
+            
+            <b>Автовладельцы выступают против COVID-19 </b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
 </template>
 
 <script>
@@ -111,134 +68,101 @@ export default {
 </script>
 
 <style scoped>
-.button {
-  position: absolute;
-  top: 2892px;
-  left: 1300px;
-}
-
-.all_news {
-  position: absolute;
-  font-family: TT Commons;
-  color: black;
-  font-style: normal;
-  top: 2900px;
-  left: 1325px;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 23px;
-}
 .news {
-  font-family: TT commons;
-  color: #686d79;
-  position: absolute;
-  font-weight: 600;
-  top: 2898px;
-  left: 300px;
-  font-size: 35px;
-}
-.news1 {
-  position: absolute;
-  top: 3018px;
-  left: 300px;
-  background-image: url(../assets/news1.jpg);
-  background-size: 100%;
-}
-
-.news1_data {
-  font-family: TT commons;
-  color: #ffffff;
-  position: absolute;
-  top: 3056px;
-  left: 350px;
-  font-size: 18px;
-}
-
-.news1_text1 {
-  position: absolute;
   font-family: TT Commons;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 46px;
+margin-left: 11.5vw;
+margin-bottom: 5vw;
+/* identical to box height */
+
+color: #686D79;
+}
+.int{
+  font-family: TT Commons;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+
+color: #D8D8D8;
+margin-left: 11.5vw;
+margin-bottom: 1vw;
+}
+.text2 {
+  margin-left: 1vw;
+  width: 12vw;
+}
+.text12 {
+  padding-top: 12vw;
+  margin-left: 1vw;
+}
+.lr3 {
+  margin-top: 3vw;
+}
+.text3 {
+  margin-left: 1vw;
+  font-family: TT Commons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  /* identical to box height, or 200% */
+
   color: #ffffff;
-  text-align: left;
+}
+.text4 {
+  padding-top: 40%;
+  margin-left: 1vw;
+  font-family: TT Commons;
+  font-style: normal;
+  font-weight: 600;
   font-size: 30px;
-  top: 3334px;
-  left: 350px;
-  line-height: 45px;
-}
+  line-height: 40px;
+  /* or 133% */
 
-.news1_text2 {
-  position: absolute;
-  font-family: TT Commons;
   color: #ffffff;
-  text-align: left;
+}
+.text5 {
+  margin-left: 1vw;
+  font-family: TT Commons;
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
-  top: 3438px;
-  left: 350px;
-  line-height: 25px;
+  line-height: 40px;
+  /* identical to box height, or 200% */
+
+  color: #ffffff;
 }
 
-.news2 {
-  position: absolute;
-  top: 3016px;
-  left: 1020px;
-  background-image: url(../assets/news2.jpg);
-  background-size: 100%;
+.img1 {
+  width: 100%;
+  height: 110%;
 }
 
-.news2_data {
-  position: absolute;
-  font-family: TT Commons;
-  color: #d8d8d8;
-  font-size: 18px;
-  top: 3016px;
-  left: 1282px;
+.img2 {
+  display: flex;
+  margin-left: 1vw;
+  width: 32%;
+  height: 32%;
 }
 
-.news2_text1 {
-  position: absolute;
-  font-family: TT Commons;
-  color: #686d79;
-  text-align: left;
-  font-size: 20px;
-  font-weight: 600;
-  top: 3082px;
-  left: 1282px;
+.container {
+  display: flex;
+  flex-direction: row;
 }
-
-.news2_text2 {
-  position: absolute;
-  font-family: TT Commons;
-  color: #686d79;
-  text-align: left;
-  font-size: 15px;
-  top: 3195px;
-  left: 1282px;
+.left_block {
+  height: 1000px;
+  display: block;
+  width: 50%;
 }
-
-.news3 {
-  position: absolute;
-  top: 3288px;
-  left: 1020px;
-  background-image: url(../assets/news3.jpg);
-  background-size: 100%;
-}
-
-.news3_data {
-  position: absolute;
-  font-family: TT Commons;
-  color: #d8d8d8;
-  font-size: 18px;
-  top: 3287px;
-  left: 1282px;
-}
-
-.news3_text {
-  position: absolute;
-  font-family: TT Commons;
-  color: #686d79;
-  text-align: left;
-  font-size: 20px;
-  font-weight: 600;
-  top: 3377px;
-  left: 1282px;
+.right_block {
+  height: 1000px;
+  display: block;
+  width: 50%;
 }
 </style>
